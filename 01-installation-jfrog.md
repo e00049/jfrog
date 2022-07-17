@@ -22,9 +22,10 @@ systemctl enable artifactory.service
 
 # Step 04: Access Artifactory Portal
 
-<IP Address>:8081
+IP Address:8081
 
 User name: admin
+
 Password: password
 
 
