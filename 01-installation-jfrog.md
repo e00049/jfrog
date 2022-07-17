@@ -1,8 +1,8 @@
-# step 01: Install JAVA
+# Step 01: Install JAVA
 
 sudo apt-get install openjdk-8-jdk openjdk-8-doc
 
-# step 02: GPG and Repo Key for JFrog Artifactory
+# Step 02: GPG and Repo Key for JFrog Artifactory
 
 sudo apt install wget software-properties-common
 
@@ -10,7 +10,7 @@ wget -qO - https://api.bintray.com/orgs/jfrog/keys/gpg/public.key | apt-key add 
 
 sudo add-apt-repository "deb [arch=amd64] https://jfrog.bintray.com/artifactory-debs $(lsb_release -cs) main"
 
-# step 03: Install JFrog Artofactory
+# Step 03: Install JFrog Artofactory
 
 sudo apt update
 
